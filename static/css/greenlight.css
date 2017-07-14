@@ -1,0 +1,75 @@
+/*************************************************
+ *  An Example Green Theme for Hugo Academic
+ *  Set `custom_css = ["green.css"] in `config.toml`.
+ *  Then save this file as `/static/css/green.css` relative to your website root (i.e. not in `themes/academic` directory).
+ *  https://github.com/gcushen/hugo-academic
+ 
+ ** This files was updated in July 2017 by jmalaverri **
+ **************************************************/
+
+a,
+a:visited,
+h3.article-title a:hover {
+    color: #00EDFF;
+}
+
+a:hover {
+    color: #00c2ff;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: #34495e;
+}
+
+.btn-primary, .btn-primary.btn-outline {
+    color: #00EDFF;
+}
+
+.navbar-default {
+  background: #00EDFF;
+  box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11)
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+  color: #f5f5f5;
+  font-weight: 700;
+  background-color: transparent !important; /* Override Bootstrap. */
+}
+
+/* Articles */
+
+.article-title a {
+    color: #151515;
+}
+
+.article-metadata a {
+    color: #888;
+}
+
+.article-metadata a:hover {
+    color: rgb(76,175,80);
+}
+
+/* Standard buttons */
+
+.btn-primary,
+.btn-primary.btn-outline {
+    border-color: #00EDFF;
+}
+
+/* Hover buttons */
+
+.btn-primary.btn-outline:hover {
+    border-color: #00EDFF;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary:visited,
+.btn-primary.btn-outline:active {
+    background-color: #00EDFF;
+}
