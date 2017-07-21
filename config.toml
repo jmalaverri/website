@@ -1,5 +1,6 @@
-baseurl = "https://jmalaverri.github.io/"  # End your URL with a `/` trailing slash.
-title = ""
+baseurl = "https://jmalaverri.github.io/" # End your URL with a `/` trailing slash.
+# "https://example.com/" 
+title = "Joana Malaverri"
 copyright = "&copy; 2017 Joana Malaverri"
 theme = "academic"
 enableEmoji = true
@@ -26,7 +27,7 @@ defaultContentLanguageInSubdir = false
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "joana.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "jmalav09@ic.unicamp.br"
-  address = "Room 93, Institute of Computing, Campinas, 13083-852, BR"
+  address = "Institute of Computing, Campinas, 13083-852, BR"
   #office_hours = "Monday 10:00 to 13:00 or email for appointment"
   #phone = "+55 19 3521-0344"
   #skype = ""

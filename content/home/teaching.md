@@ -14,7 +14,7 @@ weight = 60
 
 +++
 
-- MC102: Algorithms and Computer Programming (2 /2017) [Syllabus]
+- MC102: Algorithms and Computer Programming (2 /2017) [link](<http://www.lis.ic.unicamp.br/~joana/mc102/2s2017.html>)
 
 ## **Past Semesters**
 - MC102: Algorithms and Computer Programming (2 /2016) 
