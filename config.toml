@@ -22,7 +22,7 @@ defaultContentLanguageInSubdir = false
 [params]
   name = "Joana Gonzales Malaverri"
   role = "Postdoctoral Researcher"
-  organization = "University of Campinas"
+  #organization = "University of Campinas"
   organization_url = ""
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "joana.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
