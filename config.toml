@@ -1,7 +1,7 @@
 baseurl = "https://jmalaverri.github.io/" # End your URL with a `/` trailing slash.
 # "https://example.com/" 
 title = "Joana Malaverri"
-copyright = "&copy; 2017 Joana Malaverri"
+copyright = "&copy; 2018 Joana Malaverri"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -26,8 +26,8 @@ defaultContentLanguageInSubdir = false
   organization_url = ""
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "joana.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "jmalav09@ic.unicamp.br"
-  address = "Institute of Computing, Campinas, 13083-852, BR"
+  email = "malaverri@lri.fr"
+  #address = "Institute of Computing, Campinas, 13083-852, BR"
   #office_hours = "Monday 10:00 to 13:00 or email for appointment"
   #phone = "+55 19 3521-0344"
   #skype = ""
@@ -36,9 +36,43 @@ defaultContentLanguageInSubdir = false
   # Enable Keybase in Contact section by entering your keybase.io username.
   keybase = ""
 
+  # SITE SETUP
+
+  # Color theme.
+  #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
+  color_theme = "default"
+
+  # Font style.
+  #   Choose from `default`, `classic`, or `playfair`.
+  font = "default"
+
+  # Description for social sharing and search engines. If undefined, author role is used in place.
+  description = ""
+
+  # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
+  sharing_image = ""
+
+  # Twitter username (without @). Used when a vistor shares your site on Twitter.
+  twitter = ""
+
+  # Diplay a logo in navigation bar rather than title (optional).
+  #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
+  logo = ""
+
   # Date format (refer to Go's date format: http://flippinggodateformat.com )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
   date_format = "Mon, Jan 2, 2006"
+  #   Examples: "3:04 pm" or "15:04"
+  time_format = "3:04 PM"
+
+  # Show estimated reading time for posts?
+  reading_time = true
+
+  # Display comment count? Requires commenting to be enabled.
+  comment_count = true
+
+  # Display next/previous section pager?
+  section_pager = false
 
   # Enable global LaTeX math rendering?
   #   If false, you can enable it locally on a per page basis.
@@ -85,6 +119,11 @@ defaultContentLanguageInSubdir = false
   # Enable native social sharing buttons?
   sharing = false
 
+  # Privacy pack
+  #   Show a cookie consent message to visitors
+  #   Anonymize IP in Google Analytics (if enabled)
+  privacy_pack = false
+
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
   custom_css = ["greenlight.css"]
@@ -105,6 +144,31 @@ defaultContentLanguageInSubdir = false
     'Book',  # 5
     'Book chapter'  # 6
   ]
+
+  # Configuration of publication pages.
+  [params.publications]
+    # Date format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
+    #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+    date_format = "January, 2006"
+
+  # Configuration of project pages.
+  [params.projects]
+    # List publications and talks related to the project?
+    list_children = true
+
+  # Publication list format.
+  #   0 = Simple
+  #   1 = Detailed
+  #   2 = APA
+  #   3 = MLA
+  #   4 = Stream
+  publication_format = 4
+
+  # Talk list format.
+  #   0 = Simple
+  #   1 = Detailed
+  #   2 = Stream
+  talk_format = 2
 
   # Social/Academic Networking
   #
@@ -167,18 +231,24 @@ defaultContentLanguageInSubdir = false
 
 #[[menu.main]]
 #  name = "Projects"
-#  url = "#projects"
+#  url = "#project"
 #  weight = 4
+
+[[menu.main]]
+  name = "Service"
+  url = "#service"
+  weight = 3
 
 [[menu.main]]
   name = "Teaching"
   url = "#teaching"
-  weight = 5
+  weight = 4
+
 
 [[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 6
+  weight = 5
 
 # Taxonomies.
 [taxonomies]

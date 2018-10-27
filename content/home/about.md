@@ -12,11 +12,11 @@ weight = 1
 # List your academic interests.
 [interests]
   interests = [
+    "Knowledge Base",
+    "Data Management",
     "Data Quality",
     "Data Integration",
-    "Provenance",
-    "Reproducible Science",
-    "Semantic Web"
+    "Reproducible Science"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -37,4 +37,4 @@ weight = 1
  
 +++
 
-I am a postdoctoral researcher at the Institute of Computing of the University of Campinas ([IC-Unicamp)](<http://www.ic.unicamp.br>), Brazil and also a member of the [LIS](<http://www.lis.ic.unicamp.br/>) Lab. My research is focused on, but are not limited to, the development of computational mechanisms to enable the assessment of quality aiming at supporting reproducibility in science.
+I am a postdoctoral researcher at the Computer Research Laboratory ([LRI)](<https://www.lri.fr/>) at [University Paris Sud](<http://www.u-psud.fr/fr/index.html>) and also a member of the [LaHDAK](<https://www.lri.fr/equipe.php?eq=30>) group. Former member of [LIS](<http://www.lis.ic.unicamp.br/>) Lab at [IC-Unicamp](<http://www.ic.unicamp.br>), under the mentorship of Prof. Claudia Bauzer Medeiros. My research interests include, but are not limited to, scientific data management, data quality analysis, and software development. Nowadays, I am currently working on the development of a solution to assess the veracity of Knowledge Bases based on spatio-temporal context.

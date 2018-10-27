@@ -13,10 +13,10 @@ widget = "custom"
 weight = 60
 
 +++
+I was a teaching instructor for the following courses:
 
-- MC102: Algorithms and Computer Programming (2 /2017) [link](<http://www.lis.ic.unicamp.br/~joana/mc102/2s2017.html>)
-
-## **Past Semesters**
-- MC102: Algorithms and Computer Programming (2 /2016) 
+- Relational Database instructor: Business Intelligence and Big Data course (Aug-Sep /2017 - Unianchieta).
+- MC102: Algorithms and Computer Programming (2 /2017 - UNICAMP) [link](<http://www.lis.ic.unicamp.br/~joana/mc102/2s2017.html>)
+- MC102: Algorithms and Computer Programming (2 /2016 - UNICAMP) 
 
 
